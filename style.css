@@ -1,0 +1,145 @@
+body {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 16px;
+	line-height: 1.5;
+	
+	background-color: #A6C1A9;
+	margin: 20px 10px 40px 10px;
+	width: 100%;
+}
+
+h1 {
+  font-family: 'Times New Roman', Times, serif; 
+	font-size: 72px;
+	font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  text-transform: capitalize;
+  
+}
+
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  font-weight:  400;
+  font-size: 24px;
+}
+
+.hours {
+  color: #878076;
+}
+
+a {
+  text-decoration: none;
+  color: #7c6e7c;
+  
+}
+
+p {
+  color: #333333;
+  font-weight:  400;
+  
+}
+
+.welcome {
+  text-align: center;
+}
+
+footer p {
+font-size: 12px;
+}
+
+ul {
+  list-style-type: circle;
+  font-style: italic;
+}
+
+.extralarge {
+  font-family: Shippori Mincho, serif;
+  font-size: 5em;
+  color: #6B836D;
+  /*text-shadow: rgb(208, 223, 210) 1px 2px 0;*/
+  text-shadow: -1px -1px 1px rgb(208, 223, 210), 1px 1px 1px #000;
+  opacity: 0.3
+  text-transform: capitalize;
+  letter-spacing: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(60px, 1fr));
+  grid-gap: 0px;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  
+}
+
+.container>* {
+  aspect-ratio: 1 / 1; /* a square ratio */
+  border: 0px;
+  border-style: ridge;
+  border-color: rgb(208, 223, 210);
+ 
+  
+  /* center content */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.one {
+  background-color:rgb(225, 189, 228);
+}
+
+.two {
+  background-color:rgb(219, 223, 185);
+}
+
+.three {
+  background-color:rgb(170, 205, 219);
+}
+
+.four {
+  background-color:rgb(228, 189, 189);
+}
+
+.five {
+  background-color:rgb(159, 150, 168);
+}
+
+.six {
+  background-color:rgb(198, 218, 129);
+}
+
+.seven {
+  background-color:rgb(240, 178, 44);
+}
+
+.eight {
+  background-color:rgb(95, 156, 131);
+}
+
+.nine {
+  background-color:rgb(253, 100, 100);
+}
+
+.ten {
+  background-color:rgb(243, 228, 144);
+}
+.form {
+  text-align: center;
+}
+form {
+  width: 500px;
+margin: auto;
+}
+
+
